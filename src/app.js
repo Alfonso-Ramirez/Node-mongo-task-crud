@@ -15,7 +15,7 @@ app.engine(
   create({
     layoutsDir: path.join(app.get("views"), "layouts"),
     partialsDir: path.join(app.get("views"), "partials"),
-    defaulLayout: "main",
+    defaultLayout: "main",
     extname: ".hbs",
   }).engine
 );

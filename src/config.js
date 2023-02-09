@@ -1,6 +1,7 @@
-import { config } from "dotenv";
+import { config } from 'dotenv';
 
 config();
 
 export const MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://localhost/test";
+  process.env.MONGODB_URI ||
+  'mongodb+srv://alfonsoramirez:alfonso123@crud-mongo.lozycuw.mongodb.net/crud-mongo';

@@ -5,7 +5,7 @@ import { MONGODB_URI } from "../config";
 (async () => {
   try {
     const db = await connect(MONGODB_URI);
-    console.log("Db connectect to", db.connection.name);
+    console.log("Db connected to", db.connection.name);
   } catch (error) {
     console.error(error);
   }
